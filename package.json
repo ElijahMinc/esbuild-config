@@ -13,15 +13,9 @@
   "license": "ISC",
   "devDependencies": {
     "@jgoz/esbuild-plugin-livereload": "^2.0.1",
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
     "cross-env": "^7.0.3",
     "esbuild": "^0.17.5",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.5"
-  },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
   }
 }

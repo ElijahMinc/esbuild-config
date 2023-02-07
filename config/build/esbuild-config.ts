@@ -15,7 +15,7 @@ const resolveRoot = (...segments: string[]) => {
 
 const config: BuildOptions ={
    outdir: resolveRoot('dist'),
-   entryPoints: [resolveRoot('src','index.tsx')],
+   entryPoints: [resolveRoot('src','index.ts')],
    entryNames: '[dir]/bundle.[name]-[hash]',
    allowOverwrite: true,
    bundle: true,
