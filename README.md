@@ -1,8 +1,9 @@
 # ESBuild configuration
-**Just run**: 
+## Just run: 
 *npm install*
 
-**Build**: 
+## Build mode: 
 *npm run build*
-**Dev**:
+
+## Dev mode:
 *npm run start*
