@@ -21,7 +21,6 @@ const renderHTML = (options: HTMLPluginOptions): string => {
          <title>${options.title ?? 'ESBuild'}</title>
       </head>
       <body>
-         <div id="root"></div>
          ${options.jsPath?.map(path => `<script src="${path}"></script>`).join(' ')}
          <script>
             new EventSource('/esbuild').addEventListener('change', () => window.location.reload())

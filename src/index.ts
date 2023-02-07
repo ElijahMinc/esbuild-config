@@ -1,5 +1,5 @@
-import App from './components/App/App'
-
+import { App } from './components/App'
+import './index.css'
 
 const app = new App();
 
